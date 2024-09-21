@@ -5,7 +5,7 @@ A simple bash script to remove unused thumbnails in RetroArch 🎮️
 # Usage
 In Linux terminal, navigate to the directory that the script is saved. Then:
 ```
-./retroarch-thumbnail-cleaner "<RetroArch's main directory>"
+./retroarch-thumbnail-cleaner.sh "<RetroArch's main directory>"
 ```
 For example, RetroArch (Flatpak) on my machine:
 ```
@@ -22,5 +22,5 @@ Depending on the size of the playlists, it might take a while to list all unused
 
 ---
 # Why
-There's a tool for this available on Windows, but not on Linux. So, I made this!
+There's a tool for this available on Windows, [Delete-RetroArch-Unneeded-Thumbnails](https://github.com/maforget/Delete-RetroArch-Unneeded-Thumbnails). But it's not on Linux. So, I made this!
 
